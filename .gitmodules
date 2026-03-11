@@ -1,18 +1,18 @@
 [submodule "commonInterfaces"]
 	path = commonInterfaces
-	url = ./commonInterfaces/
+	url = git@github.com:Darokahn/commonInterfaces
 [submodule "crossplatform"]
 	path = crossplatform
-	url = ./crossplatform/
+	url = git@github.com:Darokahn/crossplatform
 [submodule "jsonParser"]
 	path = jsonParser
-	url = ./jsonParser/
+	url = git@github.com:Darokahn/jsonParser
 [submodule "network"]
 	path = network
-	url = ./network/
+	url = git@github.com:Darokahn/network
 [submodule "reentrancy"]
 	path = reentrancy
-	url = ./reentrancy/
+	url = git@github.com:Darokahn/reentrancy
 [submodule "table"]
 	path = table
-	url = ./table/
+	url = git@github.com:Darokahn/table
