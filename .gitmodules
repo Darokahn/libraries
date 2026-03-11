@@ -1,0 +1,18 @@
+[submodule "commonInterfaces"]
+	path = commonInterfaces
+	url = ./commonInterfaces/
+[submodule "crossplatform"]
+	path = crossplatform
+	url = ./crossplatform/
+[submodule "jsonParser"]
+	path = jsonParser
+	url = ./jsonParser/
+[submodule "network"]
+	path = network
+	url = ./network/
+[submodule "reentrancy"]
+	path = reentrancy
+	url = ./reentrancy/
+[submodule "table"]
+	path = table
+	url = ./table/
