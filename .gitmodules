@@ -1,9 +1,6 @@
 [submodule "commonInterfaces"]
 	path = commonInterfaces
 	url = git@github.com:Darokahn/commonInterfaces
-[submodule "crossplatform"]
-	path = crossplatform
-	url = git@github.com:Darokahn/crossplatform
 [submodule "jsonParser"]
 	path = jsonParser
 	url = git@github.com:Darokahn/jsonParser
