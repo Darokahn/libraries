@@ -2,7 +2,7 @@
 //
 // funcbuf_t* funcbuf(bool, int size): allocates a memory region that can accommodate both a `funcbuf_t` and an object of the size provided, after providing enough padding to align it to the maximum.
 //
-// acquire(funcbuf_t*, int size): takes pointer to funcbuf and an int argument that resizes the allocation. Marks the funcbuf as active, resizes it, and returns the first globally-aligned address in the allocation after the funcbuf itself. it is always an error (resize obviously accommodates this offset). If the active flag was already set and the function allows recursion, fail using the error handling method. There is an advanced funcbuf constructor that allows passing an error handling method. The default method, which is itself configurable and overridable, prints a message to stderr and exits with an error code.
+// acquire(funcbuf_t*, int size): takes pointer to funcbuf and an int argument that resizes the allocation. Marks the funcbuf as active, resizes it, and returns the first globally-aligned address in the allocation after the funcbuf itself (resize obviously accommodates this offset). If the active flag was already set and the function allows recursion, fail using the error handling method. There is an advanced funcbuf constructor that allows passing an error handling method. The default method, which is itself configurable and overridable, prints a message to stderr and exits with an error code.
 //
 // release(funcbuf_t*): marks a funcbuf as inactive and reallocates it to the minimum size. Does any bookkeeping necessary to undo calls to increase.
 //
